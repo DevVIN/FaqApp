@@ -1,0 +1,15 @@
+/*----- 7 - 1 Folder Architecture -----*/
+// via https://sass-guidelin.es/#the-7-1-pattern
+// Abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// Components
+@import "./components/buttons";
+
+// Layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// Pages
+@import "./pages/faq";
