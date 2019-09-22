@@ -1,0 +1,8 @@
+// Import all custom override files here. Please keep it organized.
+
+.bootstrap-scope {
+    @import "vendors/bootstrap/custom/bso--variables";
+	@import "vendors/bootstrap/custom/bso--components";
+    // Import the original (UNTOUCHED) Bootstrap SCSS file from Gulp Builder's node modules
+	@import "../node_modules/bootstrap/scss/bootstrap";
+}

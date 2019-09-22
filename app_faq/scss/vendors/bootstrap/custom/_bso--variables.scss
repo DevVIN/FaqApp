@@ -1,0 +1,11 @@
+// This file is intended to override Bootstrap variables (i.e. "theming")
+
+// First, we import our custom _variables.scss file, which contains each site's
+// defined color palette, fonts, sizing, etc.
+
+// Then, we override explicit Bootstrap variables by defining the value as our
+// own set variables (i.e. from the _variables.scss file, or elsewhere).
+
+@import "../../../abstracts/variables";
+
+
